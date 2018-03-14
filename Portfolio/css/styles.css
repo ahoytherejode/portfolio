@@ -1,0 +1,36 @@
+a{
+  outline: none;
+  text-decoration: none;
+  color: #979797;
+}
+
+header nav{
+  float: right;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+}
+
+header nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li{
+  display: inline;
+  margin-right: 25px;
+}
+
+header nav li a:hover{
+  color: #ff9900;
+  text-decoration: none;
+}
+
+body{
+
+}
+
+footer{
+  background-color: #000;
+  min-height: 200px;
+}
