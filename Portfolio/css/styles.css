@@ -1,36 +1,44 @@
-a{
-  outline: none;
-  text-decoration: none;
-  color: #979797;
-}
-
-header nav{
-  float: right;
-  margin: 20px 0 0 0;
-  padding: 20px 0;
-}
-
-header nav ul{
+ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-header nav ul li{
+ul li{
   display: inline;
   margin-right: 25px;
 }
 
-header nav li a:hover{
+li a:hover{
   color: #ff9900;
   text-decoration: none;
 }
 
-body{
-
+footer{
+  margin-top: 10px;
+  padding: 10px 0;
+  background-color: #933;
+  color: #ffe;
+  text-align: center;
 }
 
-footer{
-  background-color: #000;
-  min-height: 200px;
+.menuButton {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.2s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(0px);
+}
+
+.change .bar2 {
+    transform: rotate(45deg) translate(-8px, -8px);
 }

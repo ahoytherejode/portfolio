@@ -2,27 +2,105 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Jodie Page's Portfolio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
+
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
+      <div>
+        <img class="w-100" src="assets/img/slider.jpg">
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">ahoythere,jode!</a>
+          <button type="menuButton" class="menuButton navbar-toggler" data-toggle="collapse" data-target="#mobileMenu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+          </button>
+        <div class="collapse navbar-collapse" id="mobileMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <section>
+      <div class="container">
+      </div>
     </section>
-  <footer>
+    <section>
+        <h2>About</h2>
+        <hr>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa ex, malesuada quis dui eu, aliquam hendrerit dui. Pellentesque sed quam elit. Mauris tristique convallis libero et iaculis.</p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa ex, malesuada quis dui eu, aliquam hendrerit dui. Pellentesque sed quam elit. Mauris tristique convallis libero et iaculis!</p>
+        </div>
+    </section>
+    <section>
+      <div>
+        <h4>Social</h4>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/ahoytherejode/">
+            <i class="fab fa-linkedin"></i>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ahoytherejodeart">
+            <i class="fab fa-instagram"></i>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/ahoytherejode">
+            <i class="fab fa-twitter-square"></i>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact Me</h2>
+          <hr>
+            <form>
+                <div>
+                  <input id="name" type="text" placeholder="Name" required="required">
+                </div>
+                <div>
+                  <input id="email" type="email" placeholder="Email Address" required="required">
+                </div>
+                <div>
+                  <input id="phone" type="tel" placeholder="Phone Number" required="required">
+                </div>
+                <div>
+                  <textarea id="message" rows="5" placeholder="Message" required="required"></textarea>
+                </div>
+                <div>
+                  <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+      <div>
+        <small>Copyright &copy; <span id="autoDate"></span></small>
+      </div>
+    </footer>
 
-  </footer>
-    <script src="js/sketch.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
+
 </html>
