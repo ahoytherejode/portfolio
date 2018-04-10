@@ -1,30 +1,11 @@
-ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul li{
-  display: inline;
-  margin-right: 25px;
-}
-
-li a:hover{
-  color: #ff9900;
-  text-decoration: none;
-}
-
-footer{
-  margin-top: 10px;
-  padding: 10px 0;
-  background-color: #933;
-  color: #ffe;
-  text-align: center;
+button:focus{
+  outline: none;
 }
 
 .menuButton {
     display: inline-block;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 .bar1, .bar2 {
@@ -41,4 +22,67 @@ footer{
 
 .change .bar2 {
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li{
+  display: inline;
+  margin-right: 25px;
+  text-align: right;
+}
+
+li a:hover{
+  color: #ff9900;
+  text-decoration: none;
+}
+
+section{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+  text-align: center;
+}
+
+#page1{
+  height: 100%;
+  background-color: #dfc12a;
+  margin: none;
+  padding:0;
+}
+
+.img-circle{
+    border-radius: 50%;
+    padding:10px;
+}
+
+.style {
+    max-width:750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#page2{
+  height: 100%;
+  background-color: #fff;
+  margin: none;
+}
+
+#page3{
+  height: 350px;
+  background-color: #fff;
+  margin: none;
+}
+
+footer{
+  margin-top: 10px;
+  padding: 10px 0;
+  background-color: #dfc12a;
+  color: #000;
+  text-align: center;
 }

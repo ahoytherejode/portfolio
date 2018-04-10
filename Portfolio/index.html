@@ -12,10 +12,10 @@
   <body>
     <header>
       <div>
-        <img class="w-100" src="assets/img/slider.jpg">
+        <img class="w-100" src="assets/img/banner.jpg">
       </div>
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">ahoythere,jode!</a>
+      <div>
+        <nav class="navbar navbar-expand-lg">
           <button type="menuButton" class="menuButton navbar-toggler" data-toggle="collapse" data-target="#mobileMenu" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -26,72 +26,85 @@
               <a class="nav-link" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a  class="nav-link" href="#">ABOUT</a>
+              <a  class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">WORK</a>
+              <a class="nav-link" href="#work">WORK</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
       </nav>
+    </div>
     </header>
     <section>
-      <div class="container">
-      </div>
-    </section>
-    <section>
-        <h2>About</h2>
-        <hr>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa ex, malesuada quis dui eu, aliquam hendrerit dui. Pellentesque sed quam elit. Mauris tristique convallis libero et iaculis.</p>
-        </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa ex, malesuada quis dui eu, aliquam hendrerit dui. Pellentesque sed quam elit. Mauris tristique convallis libero et iaculis!</p>
-        </div>
-    </section>
-    <section>
       <div>
-        <h4>Social</h4>
+        <div id="page1">
+          <a id="about" class="smooth"></a>
+        <hr>
+          <div>
+            <p>Hello. My name is Jodie. I am a Digital Media Design student at Plymouth University. This website is here to showcase my work.</p>
+          </div>
+          <div>
+            <p>I have rescued a cat, I am a recently converted vegetarian, and I love discovering new music.</p>
+          </div>
+        <div>
+          <img class="img-circle" src="assets/img/face.jpg">
+        </div>
+      <div class="row">
+        <div class="col">
+        <h3>Social</h3>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/ahoytherejode/">
             <i class="fab fa-linkedin"></i>
+            </a>
           </li>
           <li>
             <a href="https://www.instagram.com/ahoytherejodeart">
             <i class="fab fa-instagram"></i>
+            </a>
           </li>
           <li>
             <a href="https://www.twitter.com/ahoytherejode">
             <i class="fab fa-twitter-square"></i>
+            </a>
           </li>
         </ul>
       </div>
-      <div>
+      </div>
+      <div class="style" align="center">
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <iframe src="//lightwidget.com/widgets/1fc274b186ba53c09739534ba853f075.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+    </div>
+  </div>
+    </section>
+
+    <section>
+      <div id="page2">
+      <a id="work" class="smooth"></a>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_aNWpFHG-Mo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <div id="page3">
+        <a id="contact" class="smooth"></a>
         <h2>Contact Me</h2>
           <hr>
-            <form>
-                <div>
-                  <input id="name" type="text" placeholder="Name" required="required">
-                </div>
-                <div>
-                  <input id="email" type="email" placeholder="Email Address" required="required">
-                </div>
-                <div>
-                  <input id="phone" type="tel" placeholder="Phone Number" required="required">
-                </div>
-                <div>
-                  <textarea id="message" rows="5" placeholder="Message" required="required"></textarea>
-                </div>
-                <div>
-                  <button type="submit">Send</button>
+            <form class="container" action="https://formspree.io/jodie.page.jp@gmail.com" method="POST">
+                <input class="form-control form-control-sm" id="name" type="text" placeholder="Name" required="required">
+                <input class="form-control form-control-sm" id="email" type="email" placeholder="Email Address" required="required">
+                <input class="form-control form-control-sm" id="phone" type="tel" placeholder="Phone Number" required="required">
+                <textarea class="form-control form-control-sm" id="message" rows="5" placeholder="Message" required="required"></textarea>
+                <button class="form-control form-control-sm" type="submit">Send</button>
                 </div>
             </form>
         </div>
+      </div>
     </section>
+
     <footer>
       <div>
         <small>Copyright &copy; <span id="autoDate"></span></small>
